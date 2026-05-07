@@ -1,0 +1,12 @@
+{
+  "name": "self-improvement",
+  "version": "1.0.0",
+  "description": "GitHub repository that improves its own documentation using an LLM agent.",
+  "type": "module",
+  "scripts": {
+    "improve": "node scripts/self-improve.mjs"
+  },
+  "dependencies": {
+    "openai": "^4.104.0"
+  }
+}

@@ -1,0 +1,46 @@
+name: Self Improvement Agent
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  self-improve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run self-improvement agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: npm run improve
+
+      - name: Commit improvements
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            git config user.name "self-improvement-agent"
+            git config user.email "self-improvement-agent@users.noreply.github.com"
+            git add README.md ROADMAP.md CHANGELOG.md docs/
+            git commit -m "chore: automated repository self-improvement"
+            git push
+          else
+            echo "No changes to commit."
+          fi
