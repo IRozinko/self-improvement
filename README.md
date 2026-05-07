@@ -100,3 +100,15 @@ Possible next steps:
 ## Contribution
 
 Contributions and suggestions are welcome. Please open issues or pull requests to improve the agent or documentation.
+
+---
+
+## Example improvement request
+
+Here is an example prompt the agent might use internally to request an improvement from the LLM:
+
+```
+Please suggest a small, safe improvement to the README.md file that enhances clarity or adds a useful example. The change should be concise and easily reviewable.
+```
+
+This helps keep the improvements focused and aligned with the repository's goals.
