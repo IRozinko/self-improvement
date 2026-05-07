@@ -112,3 +112,14 @@ Please suggest a small, safe improvement to the README.md file that enhances cla
 ```
 
 This helps keep the improvements focused and aligned with the repository's goals.
+
+---
+
+## Example manual improvement
+
+To help reviewers understand the agent's changes, here is an example of a small, safe improvement the agent might make:
+
+- Add a brief example usage section to the README.md to illustrate how to trigger the agent manually.
+- Clarify the "Improvement policy" section by adding a note about the maximum number of files changed per run.
+
+These types of improvements keep the documentation clear and helpful without introducing risk.
