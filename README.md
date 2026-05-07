@@ -86,6 +86,8 @@ The agent may update only allowlisted documentation and planning files:
 
 Changes should be small, focused, and easily reviewable.
 
+**Note:** To keep reviews manageable, the agent should modify no more than 2 files per run.
+
 ## Future improvements
 
 Possible next steps:
