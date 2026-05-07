@@ -59,7 +59,7 @@ If `OPENAI_MODEL` is not set, the script uses its default model.
 
 ## Manual run
 
-Go to:
+To manually trigger the agent:
 
 ```text
 Actions → Self Improvement Agent → Run workflow
