@@ -1,6 +1,6 @@
 # Self-Improvement Repository
 
-This repository demonstrates a GitHub automation agent that periodically improves repository content using an LLM.
+This repository demonstrates a GitHub automation agent that periodically improves repository content using a large language model (LLM).
 
 ## Goal
 
@@ -94,3 +94,7 @@ Possible next steps:
 - support multiple LLM providers;
 - add file-level scoring;
 - add cost limits.
+
+## Contribution
+
+Contributions and suggestions are welcome. Please open issues or pull requests to improve the agent or documentation.
