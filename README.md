@@ -84,6 +84,8 @@ The agent may update only allowlisted documentation and planning files:
 - `docs/ideas.md`
 - `docs/implementation-notes.md`
 
+Changes should be small, focused, and easily reviewable.
+
 ## Future improvements
 
 Possible next steps:
