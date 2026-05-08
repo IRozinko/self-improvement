@@ -125,3 +125,15 @@ To help reviewers understand the agent's changes, here is an example of a small,
 - Clarify the "Improvement policy" section by adding a note about the maximum number of files changed per run.
 
 These types of improvements keep the documentation clear and helpful without introducing risk.
+
+---
+
+## Example usage
+
+To manually trigger the self-improvement agent, navigate in GitHub to:
+
+```
+Actions → Self Improvement Agent → Run workflow
+```
+
+This will start the agent immediately, allowing you to see its improvements without waiting for the scheduled run.
