@@ -137,3 +137,29 @@ Actions → Self Improvement Agent → Run workflow
 ```
 
 This will start the agent immediately, allowing you to see its improvements without waiting for the scheduled run.
+
+---
+
+## Additional example usage section
+
+### Triggering the agent manually
+
+You can also trigger the agent manually using the GitHub CLI:
+
+```bash
+gh workflow run "Self Improvement Agent"
+```
+
+This command starts the workflow immediately from your terminal.
+
+---
+
+## Troubleshooting
+
+If the agent does not appear to make changes:
+
+- Ensure the `OPENAI_API_KEY` secret is set correctly.
+- Check the workflow run logs for errors.
+- Verify that the files to be improved are in the allowlist.
+
+If you encounter issues, please open an issue in this repository.
