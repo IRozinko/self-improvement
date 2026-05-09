@@ -59,14 +59,16 @@ If `OPENAI_MODEL` is not set, the script uses its default model.
 
 ## Manual run
 
-To manually trigger the agent:
+You can manually trigger the self-improvement agent using the GitHub web interface or GitHub CLI.
+
+**Using GitHub Web Interface:**
 
 1. Go to the repository's GitHub page.
 2. Navigate to the "Actions" tab.
 3. Select the "Self Improvement Agent" workflow.
 4. Click "Run workflow" to start it immediately.
 
-Alternatively, you can trigger the agent using the GitHub CLI:
+**Using GitHub CLI:**
 
 ```bash
 gh workflow run "Self Improvement Agent"
@@ -146,27 +148,3 @@ If the agent does not appear to make changes:
 - Verify that the files to be improved are in the allowlist.
 
 If you encounter issues, please open an issue in this repository.
-
----
-
-## Added example usage section
-
-### Triggering the agent manually
-
-You can manually trigger the self-improvement agent using the GitHub web interface or GitHub CLI.
-
-**Using GitHub Web Interface:**
-
-1. Navigate to the repository's "Actions" tab.
-2. Select the "Self Improvement Agent" workflow.
-3. Click the "Run workflow" button to start the agent immediately.
-
-**Using GitHub CLI:**
-
-```bash
-gh workflow run "Self Improvement Agent"
-```
-
-This command starts the workflow immediately from your terminal.
-
-This example helps users understand how to manually invoke the agent for immediate improvements.
