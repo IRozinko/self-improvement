@@ -61,9 +61,10 @@ If `OPENAI_MODEL` is not set, the script uses its default model.
 
 To manually trigger the agent:
 
-```text
-Actions → Self Improvement Agent → Run workflow
-```
+1. Go to the repository's GitHub page.
+2. Navigate to the "Actions" tab.
+3. Select the "Self Improvement Agent" workflow.
+4. Click "Run workflow" to start it immediately.
 
 Alternatively, you can trigger the agent using the GitHub CLI:
 
