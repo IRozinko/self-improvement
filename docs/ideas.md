@@ -8,6 +8,7 @@ This file stores possible improvements that the agent or maintainer can use late
 - Add example workflow run output.
 - Add troubleshooting section.
 - Add setup screenshots.
+- Add usage examples for manual triggering of the agent.
 
 ## Automation
 
