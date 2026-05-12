@@ -9,6 +9,7 @@ This file stores possible improvements that the agent or maintainer can use late
 - Add troubleshooting section.
 - Add setup screenshots.
 - Add usage examples for manual triggering of the agent.
+- Add a FAQ section addressing common questions about the agent.
 
 ## Automation
 
@@ -16,6 +17,7 @@ This file stores possible improvements that the agent or maintainer can use late
 - Add dry-run mode.
 - Add labels for automated PRs.
 - Add weekly summary issue.
+- Integrate with issue tracker to automatically create issues from changelog entries.
 
 ## Quality
 
@@ -23,3 +25,4 @@ This file stores possible improvements that the agent or maintainer can use late
 - Add spell checking.
 - Add link checking.
 - Add validation for generated JSON.
+- Add automated review comments for suggested improvements.
