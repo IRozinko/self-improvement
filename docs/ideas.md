@@ -34,3 +34,15 @@ This file stores possible improvements that the agent or maintainer can use late
 - Add a glossary for terms related to the agent and automation.
 - Add examples of common improvement requests to guide the LLM.
 - Add a template for improvement requests to standardize prompts.
+
+---
+
+## Prioritization Suggestions
+
+To help guide future work, consider prioritizing ideas that:
+
+- Improve user understanding and onboarding;
+- Enhance automation safety and reviewability;
+- Increase automation transparency and traceability;
+- Provide actionable feedback to maintainers;
+- Reduce manual maintenance overhead.
