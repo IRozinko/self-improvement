@@ -33,3 +33,4 @@ This file stores possible improvements that the agent or maintainer can use late
 - Add a section for user feedback or community suggestions.
 - Add a glossary for terms related to the agent and automation.
 - Add examples of common improvement requests to guide the LLM.
+- Add a template for improvement requests to standardize prompts.
