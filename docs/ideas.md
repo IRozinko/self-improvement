@@ -46,3 +46,11 @@ To help guide future work, consider prioritizing ideas that:
 - Increase automation transparency and traceability;
 - Provide actionable feedback to maintainers;
 - Reduce manual maintenance overhead.
+
+---
+
+## New suggestions
+
+- Add example snippets showing how to write improvement requests for different file types.
+- Include a section describing how to evaluate the impact of agent changes during review.
+- Suggest adding a changelog entry template to standardize updates.
