@@ -54,3 +54,4 @@ To help guide future work, consider prioritizing ideas that:
 - Add example snippets showing how to write improvement requests for different file types.
 - Include a section describing how to evaluate the impact of agent changes during review.
 - Suggest adding a changelog entry template to standardize updates.
+- Add a small section describing how to prioritize ideas in the backlog (e.g., impact vs effort).
