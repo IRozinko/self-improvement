@@ -55,3 +55,11 @@ To help guide future work, consider prioritizing ideas that:
 - Include a section describing how to evaluate the impact of agent changes during review.
 - Suggest adding a changelog entry template to standardize updates.
 - Add a small section describing how to prioritize ideas in the backlog (e.g., impact vs effort).
+
+---
+
+## Formatting and organization suggestions
+
+- Consider grouping ideas by priority or effort to help planning.
+- Use consistent bullet styles and indentation for readability.
+- Add dates or version tags to track when ideas were added or implemented.
