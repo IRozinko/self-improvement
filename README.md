@@ -173,3 +173,12 @@ Please add a concise example usage section to the README.md that explains how to
 ```
 
 This ensures the agent suggests practical, reviewable changes that enhance user understanding.
+
+---
+
+## Summary of key points
+
+- The agent focuses exclusively on documentation and planning files to maintain safety.
+- Changes are small and reviewable, with a maximum of 2 files modified per run.
+- Manual triggering is supported via GitHub web interface and CLI.
+- Future enhancements aim to improve automation safety, transparency, and usability.
