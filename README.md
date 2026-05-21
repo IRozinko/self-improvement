@@ -148,3 +148,28 @@ If the agent does not appear to make changes:
 - Verify that the files to be improved are in the allowlist.
 
 If you encounter issues, please open an issue in this repository.
+
+---
+
+## Additional usage example
+
+### Triggering the agent manually via GitHub CLI
+
+To manually trigger the self-improvement agent from your terminal, run:
+
+```bash
+# Trigger the workflow named "Self Improvement Agent"
+gh workflow run "Self Improvement Agent"
+```
+
+This command will start the workflow immediately, allowing you to test or prompt improvements on demand.
+
+### Example of a small README.md improvement request
+
+When requesting improvements, keep prompts focused and safe, for example:
+
+```
+Please add a concise example usage section to the README.md that explains how to manually trigger the self-improvement agent using the GitHub CLI.
+```
+
+This ensures the agent suggests practical, reviewable changes that enhance user understanding.
