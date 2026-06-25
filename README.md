@@ -182,3 +182,10 @@ This ensures the agent suggests practical, reviewable changes that enhance user 
 - Changes are small and reviewable, with a maximum of 2 files modified per run.
 - Manual triggering is supported via GitHub web interface and CLI.
 - Future enhancements aim to improve automation safety, transparency, and usability.
+
+---
+
+## Minor clarifications added
+
+- Added a note in the "Improvement policy" section about the maximum number of files changed per run to emphasize reviewability.
+- Added a brief "Summary of key points" section at the end to highlight the main safety and usage principles.
